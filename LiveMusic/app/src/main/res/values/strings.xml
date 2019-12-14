@@ -1,0 +1,18 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Live Music</string>
+    <string name="order_summary_From">from : <xliff:g example="yono" id="from">%s</xliff:g></string>
+    <string name="order_summary_to">to :  <xliff:g example="budi" id="to">%s</xliff:g></string>
+    <string name="order_artist">artist : <xliff:g example="dadang" id="artist">%s</xliff:g></string>
+    <string name="order_song">song : <xliff:g example="entah apa" id="song">%s</xliff:g></string>
+    <string name="thank_you">Thank you for request</string>
+    <string name="order_summary_email_subject">Request lagu <xliff:g example="yono" id="from">%s</xliff:g></string>
+    <string name="title_activity_top10">Top10</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_top_music">topMusic</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_live_here">Map</string>
+
+</resources>

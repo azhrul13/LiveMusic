@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu"
+    android:orientation="vertical"
+    android:background="@drawable/music"
+    android:theme="@style/AppTheme"
+    >
+
+    <LinearLayout
+        android:background="#44FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/music2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Identity"
+            android:textSize="26dp"
+            android:textColor="#000"/>
+        <EditText
+            android:id="@+id/From"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="From" />
+
+        <EditText
+            android:id="@+id/to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="to" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Song Request"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <EditText
+            android:id="@+id/artist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Artist" />
+
+        <EditText
+            android:id="@+id/song"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="song" />
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Request"
+            android:onClick="submitOrder"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+
+</LinearLayout>

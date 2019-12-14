@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/music"
+    android:orientation="vertical"
+    tools:context=".about">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#44FFFFFF">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/liveamu"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#99FFFFFF"
+            android:text="Musik merupakan suara yang disusun sedemikian rupa sehingga mengandung irama, lagu, nada, dan keharmonisan terutama dari suara yang dihasilkan dari alat-alat yang dapat menghasilkan irama Walaupun musik adalah sejenis fenomena intuisi, untuk mencipta, memperbaiki dan mempersembahkannya adalah suatu bentuk seni. Mendengar musik adalah sejenis hiburan. Musik adalah sebuah fenomena yang sangat unik yang bisa dihasilkan oleh beberapa alat musik."
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#99FFFFFF"
+            android:text="Live music merupakan salah satu daya pikat restoran/kafe/bar untuk menarik pengunjung. Karena selain menikmati makanan atau minuman, pengunjung disuguhkan dengan lagu-lagu yang hit dan pemainnya berinteraksi dengan pengunjung. Mereka bisa request lagu, atau malah  ikut bernyanyi menyumbangkan lagu"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
